@@ -48,17 +48,6 @@ export default function HuongDanMuaHang() {
         <p className="text-zinc-600">Đồ chơi thư giãn • Siêu mềm • Đóng gói kín đáo</p>
       </div>
 
-      {/* Nút mua ngay lớn */}
-      <div className="max-w-md mx-auto px-5 mb-12">
-        <a
-          href={shopeeLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block w-full bg-pink-600 hover:bg-pink-700 text-white text-center py-6 rounded-3xl text-2xl font-bold shadow-lg active:scale-[0.97] transition-all"
-        >
-          🛒 MUA NGAY TRÊN SHOPEE
-        </a>
-      </div>
 
       {/* Các bước */}
       <div className="max-w-md mx-auto px-5 space-y-16">

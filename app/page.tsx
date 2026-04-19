@@ -49,7 +49,7 @@ export default function Home() {
             href={`/san-pham/${product.slug}`}
             className="bg-violet-100 hover:bg-violet-200 active:bg-violet-300 text-violet-700 font-semibold py-5 rounded-2xl text-center transition-all text-lg flex items-center justify-center"
           >
-            Xem chi tiết
+            Hướng dẫn mua hàng
           </Link>
 
           {/* Nút Mua ngay Shopee - Màu hồng nổi bật */}

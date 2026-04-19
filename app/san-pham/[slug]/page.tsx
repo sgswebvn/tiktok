@@ -37,7 +37,7 @@ export default function HuongDanMuaHang() {
       <header className="sticky top-0 bg-white border-b z-50">
         <div className="max-w-md mx-auto px-5 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold">Hướng Dẫn Mua Hàng</h1>
-          <div className="text-sm text-zinc-500">Shop TikTok</div>
+          <a href='/' className="text-sm text-zinc-500">Shop TikTok</a>
         </div>
       </header>
 

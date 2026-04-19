@@ -42,8 +42,8 @@ export default function Home() {
           {product.shortDesc}
         </p>
 
-        {/* Hai nút song song */}
-        <div className="grid grid-cols-2 gap-4">
+      
+        <div className="text-center">
           {/* Nút Xem chi tiết - Màu tím nhạt sang trọng */}
           <Link 
             href={`/san-pham/${product.slug}`}
@@ -52,15 +52,7 @@ export default function Home() {
             Hướng dẫn mua hàng
           </Link>
 
-          {/* Nút Mua ngay Shopee - Màu hồng nổi bật */}
-          <a 
-            href={shopeeLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-pink-600 hover:bg-pink-700 active:bg-pink-800 text-white font-semibold py-5 rounded-2xl text-center transition-all text-lg flex items-center justify-center shadow-md"
-          >
-             Mua ngay
-          </a>
+          
         </div>
 
         <p className="text-center text-xs text-zinc-500 mt-8">

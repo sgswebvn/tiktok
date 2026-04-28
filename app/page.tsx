@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Home() {
-  const shopeeLink = "https://s.shopee.vn/1gEnAKqvZC"; 
+  const shopeeLink = "https://s.shopee.vn/10zKbSGoo6"; 
 
   const product = {
     slug: "banh-xe-thu-dam-silicon",

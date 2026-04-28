@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 export default function Landing() {
-  const shopeeLink = "https://s.shopee.vn/1gEnAKqvZC";
+  const shopeeLink = "https://s.shopee.vn/10zKbSGoo6";
 
   return (
     <main className="min-h-screen bg-white text-zinc-900 flex flex-col justify-between">
